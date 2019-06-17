@@ -123,6 +123,11 @@ public:
 int main()
 {
 	MyClock2 cl(12, 30, 45);
+	MyClock1 vv;
+	//vvod
+	cin >> vv;
+	//vyvod
+	cout << vv;
 	Display::Print(cl);
 	cl.Print();
 	MyClock2 cl2(12, 30, 20);
